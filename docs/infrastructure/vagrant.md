@@ -38,7 +38,8 @@ Spin up VM via code
 
 
 # Code
-```shell
+- Ubuntu Box with Node + nginx
+```Vagrantfile
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -92,4 +93,30 @@ end
 # sudo service postgresql start
 # sudo -i -u postgres
 # sudo ufw allow from <application ip> to any port 5432
+```
+
+- Simple Box with Node
+```Vagrantfile
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-18.04"
+  # config.vm.box_check_update = false
+  # config.vm.network "private_network", ip: "192.168.56.10" # EXPOSES LOCAL IP
+  # config.vm.network "public_network"
+  # if you want you're working folder change here
+  # config.vm.synced_folder "/Users/melchor_tatlonghari/workspace/<project>", "/home/vagrant"
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = false
+    vb.memory = "4096"
+  end
+  # Node and NGINX provisioning
+  config.vm.provision "debugging tools", inline: <<-SHELL
+    apt-get update
+    # NOTE: UNTESTED BELOW:
+    apt-get -y install vim telnet inetutils-traceroute iputils-ping curl
+    echo I am provisioning...
+  SHELL
+end
 ```
