@@ -1,5 +1,5 @@
 
-# Traefik:
+# Traefik
 Load Balancing and Reverse Proxy Management using Docker Containers.
 
 
