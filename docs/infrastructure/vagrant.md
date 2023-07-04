@@ -1,43 +1,18 @@
 # Vagrant
-Spin up VM via code
-## What
+- Spin up VM via code
 - For spinning up quickly custom infrastructure on your local (e.g Linux, Windows Machine etc)
-- Ubuntu + Nginx
+- Kind of similar to Docker, but for very special use case of spinning up Linux machines.
+- https://www.vagrantup.com/
 
 ## Prerequisites
 - Have Vagrant (+VirtualBox if Mac) in your local machine
+- Your machine should be able to handle virtualization.
 
 ## How 
 - in the terminal, where Vagrantfile is located run `Vagrant up`
 - `Vagrant destroy` to delete
 
-## Notes
-- update node
-- install nginx: sudo apt install nginx
-
-## How to Check firewall
-- check status: sudo ufw app list
-- sudo ufw allow 'Nginx HTTP'
-- check status: sudo ufw status
-
-
-## How to Configure nginx
-- get server ip should default a home page
-- update: 
-```shell
-/etc/nginx/sites-enabled
-  location / {
-  # First attempt to serve request as file, then
-  # as directory, then fall back to displaying a 404.
-  # try_files $uri $uri/ =404;
-  proxy_pass http://127.0.0.1:7777/;
-  }
-```
-- add default.conf
-- restart nginx
-
-
-# Code
+## Code
 - Ubuntu Box with Node + nginx
 ```Vagrantfile
 # -*- mode: ruby -*-
@@ -95,7 +70,7 @@ end
 # sudo ufw allow from <application ip> to any port 5432
 ```
 
-- Simple Box with Node
+### Simple Box with Node
 ```Vagrantfile
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
