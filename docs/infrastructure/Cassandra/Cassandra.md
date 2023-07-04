@@ -4,7 +4,7 @@
 - https://cassandra.apache.org/_/index.html
 
 ## How
-- Run via docker below, see [Code Section](./Cassandra#code)
+- Run via docker below, see [Code Section](./#code)
 
 ## Code
 - Dockerfile
