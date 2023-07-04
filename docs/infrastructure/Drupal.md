@@ -1,5 +1,8 @@
 # Drupal
-Content Management System
+- Out of the box Content Management System, with minimal coding.
+- A strong contender for Buying versus Building, when user only needs a simple content management site, has extensive plugin community that will enable your site to scale. e.g: adding a shopping basket.
+- https://www.drupal.org/
+
 
 # Code
 ```yml

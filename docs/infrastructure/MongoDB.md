@@ -1,32 +1,26 @@
 # MongoDB
-NoSQL Database
+- NoSQL Database
+- https://www.mongodb.com/
 
-## Local
-- after running docker compose you can access:
-`http://localhost:8081`
+## How
+- run via Docker, see  [Code Section](./MongoDB#code)
+- after running docker compose you can access: `http://localhost:8081`
+- Connection URL String:`mongodb://localhost:27017/<db_name>`
 
-- URL String:
-`mongodb://localhost:27017/<db_name>`
-
-## CRUD
+## CLI Scripts
 - Insert:
 ```shell
-db.<db_name>.insertOne({
-
-})
+db.<db_name>.insertOne({})
 ```
-
 - delete all:
 ```shell
 db.<name>.deleteMany({})
 ```
-
 - select:
 ```shell
 db.<name>.find().pretty();
 ```
-
-# Code
+## Code
 - Working Docker YML
 ```yml
 # Use root/example as user/password credentials
@@ -54,7 +48,7 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
 ```
 
-## Example data.json
+### Example data.json
 ```json
 {
   "ID": 111,
