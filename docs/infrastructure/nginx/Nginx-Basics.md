@@ -48,3 +48,21 @@ server {
     }
 }
 ```
+
+## How to Configure nginx proxy-pass
+- update sites-enbaled files
+```shell
+/etc/nginx/sites-enabled
+  location / {
+  # First attempt to serve request as file, then
+  # as directory, then fall back to displaying a 404.
+  # try_files $uri $uri/ =404;
+  proxy_pass http://127.0.0.1:7777/;
+  }
+```
+- add default.conf
+- restart nginx
+
+
+## Shell command to Nginx
+- `install nginx: sudo apt install nginx`
