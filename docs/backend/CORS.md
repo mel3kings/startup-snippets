@@ -1,4 +1,4 @@
-# React CORS
+# Python CORS
 Cross Origin Resource Sharing
 
 ## What?
@@ -6,5 +6,9 @@ Cross Origin Resource Sharing
 - you need to enable from Client CORS to enable application 
 
 ## How?
-- Add proxy to your Package.json
-"proxy": "https://domain.execute-api.ap-southeast-2.amazonaws.com/",
+```python
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
+```
