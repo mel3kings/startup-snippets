@@ -138,3 +138,69 @@ export SDKMAN_DIR="/Users/melchor_tatlonghari/.sdkman"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 ```
+
+### Sample Bashprofile
+```shell
+#!/usr/bin/env bash
+
+# If not running interactively, don't do anything
+case $- in
+  *i*) ;;
+    *) return;;
+esac
+
+# Path to the bash it configuration
+export BASH_IT="/Users/melchortatlonghari/.bash_it"
+export BASH_IT_THEME='bobby'
+
+
+# Don't check mail when opening terminal.
+unset MAILCHECK
+
+# Change this to your console based IRC client of choice.
+export IRC_CLIENT='irssi'
+
+# Set this to the command you use for todo.txt-cli
+export TODO="t"
+
+# Set this to false to turn off version control status checking within the prompt for all themes
+export SCM_CHECK=true
+ 
+# Load Bash It
+source "$BASH_IT"/bash_it.sh
+# START OF ANSIBLE MANAGED BLOCK
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -x "$(which direnv)" ] && eval "$(direnv hook bash)"
+# END OF ANSIBLE MANAGED BLOCK
+
+alias python='python3'
+alias tf='terraform'
+
+# Setting PATH for Python 3.12
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+export PATH
+
+eval "$(/usr/local/bin/brew shellenv)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/usr/local/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/usr/local/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/usr/local/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/melchortatlonghari/.sdkman"
+[[ -s "/Users/melchortatlonghari/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/melchortatlonghari/.sdkman/bin/sdkman-init.sh"
+
+```
