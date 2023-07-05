@@ -16,3 +16,5 @@
 ## Favicon Converter
 - https://favicon.io/favicon-converter/
 
+## Text Generator
+- https://www.lipsum.com/

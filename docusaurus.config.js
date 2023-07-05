@@ -75,7 +75,7 @@ const config = {
               },
               {
                 label: "Dumb Builds",
-                to: "/dumbbuilds",
+                to: "/blog",
               },
             ],
           },
