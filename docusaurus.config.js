@@ -58,7 +58,6 @@ const config = {
             label: 'Snippet Library',
           },
           {to: '/blog', label: 'Dumb Builds', position: 'left'},
-          // {to: '/builds', label: 'Dumb Builds', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -99,8 +98,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Dumb Builds',
+                to: '/dumbbuilds',
               },
               {
                 label: 'GitHub',
