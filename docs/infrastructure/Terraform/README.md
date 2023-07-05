@@ -1,4 +1,4 @@
-# Terraform
+# Terraform ⭐
 - Infrastructure as Code
 - Terraform Code to quickly deploy Full Serverless Architecture in AWS
 - https://www.terraform.io/

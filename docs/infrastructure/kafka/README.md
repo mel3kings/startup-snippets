@@ -1,4 +1,4 @@
-# Kafka
+# Kafka ⭐
 - Messaging Queue used for distributed systems, widely used for event streaming and for applications at scale.
 - https://kafka.apache.org/
 

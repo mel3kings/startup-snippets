@@ -1,4 +1,4 @@
-# Git Hooks
+# Git Hooks ⭐
 - Git Hooks are commands that run before you commit to git, they can prevent you to commit code that fails unit-tests or are automatically lint.
 - The stage of which the script is ran depends on which stage it is named after, I mostly use pre-commit. 
 - Other stages are found in the link below.

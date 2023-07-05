@@ -1,4 +1,4 @@
-# Prettier
+# Prettier ⭐ 
 Prettier fixes code formatting and standardizes code standard
 
 ## How?
