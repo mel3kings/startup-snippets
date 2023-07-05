@@ -39,3 +39,8 @@
      "prettify": "prettier './src/**/*.{ts,tsx,js,jsx}' --write"
   },
 ```
+
+
+- Further configuration to automatically remove unused imports
+
+```npm install eslint-plugin-unused-imports --save-dev```

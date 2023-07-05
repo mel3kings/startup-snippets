@@ -1,4 +1,4 @@
-# Python CORS
+# CORS
 - Cross Origin Resource Sharing
 - For local development usually when you try calling different domain names CORS will prevent you from doing so.
 - you need to enable from Client CORS to enable application 
