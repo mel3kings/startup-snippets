@@ -13,7 +13,7 @@ brew install hasura-cli
 
 
 ## Code
-- working docker
+### Docker
 ```yml
 version: "3"
 
@@ -54,7 +54,7 @@ networks:
 volumes:
   pgadmin_data:
 ```
-- Config.yaml
+### Config.yaml
 ```yml
 version: 3
 endpoint: http://localhost:18080

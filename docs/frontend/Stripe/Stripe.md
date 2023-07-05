@@ -2,7 +2,7 @@
 - Payments Solution for your applications
 
 ## Code
-- Simple Forward Redreciton
+### Simple Forward Redreciton
 ```Javascript
 <form className="pt-2" action={`${DOMAIN_NAME}/submit-session`} method="POST">
                     <button
@@ -14,5 +14,6 @@
                   </form>
 ```
 
+### Server Side
 - for Server side see: [Python Stripe](../../backend/Python/Python-Stripe.md)
 - For token validation see: [Token Validation](../../backend/Python/Python-Token-Validation.md)

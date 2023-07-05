@@ -1,7 +1,7 @@
 # React
 
 ## Code
-- Simple fetch call
+### Simple fetch call
 ```javascript
   const response = await fetch(`${DOMAIN_NAME}/upload`, {
         method: "POST",
@@ -11,7 +11,7 @@
         body: formData,
       });
 ```
-- Simple Post call for uploading files
+### Simple Post call for uploading files
 ```javascript
 const handleUploadSubmit = async (event) => {
     event.preventDefault();
