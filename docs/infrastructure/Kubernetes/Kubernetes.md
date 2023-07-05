@@ -10,7 +10,8 @@
 
 
 ## Training
-- There is a bunch of snippets in the raw repository that will help you ace the CKAD test.
+- There is a bunch of snippets in the raw repository that will help you ace the CKAD test. (https://github.com/mel3kings/startup-snippets/tree/main/docs/infrastructure/Kubernetes/k8s-training)
+
 - Snippets like:
     - Setting up Cron with a pod
     - Setting up Nginx
