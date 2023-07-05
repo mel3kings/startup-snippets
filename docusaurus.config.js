@@ -1,39 +1,37 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Snippets Library',
-  tagline: 'A collection of snippets for common programming tasks',
-  favicon: 'img/favicon.ico',
-  // Set the production url of your site here
-  url: 'https://snippets.melchortatlonghari.com',
+  title: "Snippets Library",
+  tagline: "A collection of snippets & small projects for common programming tasks",
+  favicon: "img/favicon.ico",
+  url: "https://snippets.melchortatlonghari.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
-
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -43,72 +41,83 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'My Site',
+        title: "mel3kings",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "Site Logo",
+          src: "img/profile.svg",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Snippet Library',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Snippet Library",
           },
-          {to: '/blog', label: 'Dumb Builds', position: 'left'},
+          { to: "/blog", label: "Dumb Builds", position: "left" },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://www.melchortatlonghari.com/",
+            label: "Home",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Snippets Library",
+                to: "/docs/intro",
+              },
+              {
+                label: "Dumb Builds",
+                to: "/dumbbuilds",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Links",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Home",
+                href: "https://www.melchortatlonghari.com",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/melchor-tatlonghari",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/meltatlonghari3",
+              },
+              {
+                label: "Medium",
+                href: "https://medium.com/@meltatlonghari3",
               },
             ],
           },
           {
-            title: 'More',
+            title: "Dev Links",
             items: [
               {
-                label: 'Dumb Builds',
-                to: '/dumbbuilds',
+                label: "Github",
+                href: "https://github.com/mel3kings",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "Stackoverflow",
+                href: "https://stackoverflow.com/users/2023728/mel3kings",
+              },
+              {
+                label: "Credly",
+                href: "https://www.credly.com/users/melchor-tatlonghari/badges",
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ]
       },
       prism: {
         theme: lightCodeTheme,

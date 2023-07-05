@@ -4,7 +4,7 @@ title: Scheduler
 authors: [mel]
 tags: [builds, snippet library, dumb, snippet, powerpoint, reader, ai, youtube, downloader, scheduler]
 ---
-# Powerpoint Reader
+# Meeting Scheduler
 
 :::tip
 Find common meeting-friendly timeslots across different timezones

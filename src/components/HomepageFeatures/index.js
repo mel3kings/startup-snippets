@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Discover the World of Fullstack Development',
+    Svg: require('@site/static/img/development-web-development-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Explore snippets of code covering frontend, backend, infrastructure, architecture, and everything in-between to enhance your fullstack development skills.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Unleash Your Creativity with Unique Self-Projects',
+    Svg: require('@site/static/img/creative-knowledge-lightbulb-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Get inspired by our collection of unique and interesting self-projects that push the boundaries of technology and spark your creativity.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Stay Ahead with Exciting Technology Insights',
+    Svg: require('@site/static/img/analytics-svgrepo-com.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Stay up-to-date with the latest advancements in technology as we bring you fascinating insights into the most interesting and cutting-edge developments.
       </>
     ),
   },
