@@ -16,7 +16,6 @@ spec:
   containers:
   - name: nginx
     image: nginx
-
 ```
 ### Multiple Pods
 ```yml

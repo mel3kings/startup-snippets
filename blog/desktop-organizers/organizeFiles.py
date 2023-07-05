@@ -5,7 +5,6 @@ print("organize files....")
 
 paths = ['/Users/melchortatlonghari/Desktop/', '/Users/melchortatlonghari/Downloads/']
 
-
 def ensure_folder_exists(folders):
     print("checking folders exists {0}".format(folders))
     for folder in folders:
