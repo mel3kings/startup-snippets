@@ -14,9 +14,10 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <p className="hero__subtitle2">💡 New updates: Added Authentication Section: Auth0</p>
+        <div className="">
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--md"
             to="https://www.melchortatlonghari.com/#home">
             Subscribe
           </Link>
