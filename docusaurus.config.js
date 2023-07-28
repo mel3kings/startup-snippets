@@ -54,7 +54,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Snippet Library",
+            label: "Startup Snippets",
           },
           { to: "/blog", label: "Dumb Builds", position: "left" },
           {
