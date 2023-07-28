@@ -14,7 +14,8 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__subtitle2">💡 New updates: Added Authentication Section: Auth0</p>
+        <p className="hero__subtitle2">💡 New updates (July 2023): Added Authentication Section: Auth0</p>
+        <p className="hero__subtitle2">💡 New updates (July 2023): Tailwind Section</p>
       </div>
     </header>
   );
