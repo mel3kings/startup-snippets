@@ -26,3 +26,60 @@
   --ifm-color-primary-lighter: #cccccc;
   --ifm-color-primary-lightest: #e6e6e6;
 }
+
+.dark .subscribe-button {
+  background-color: #706363;
+  color: black
+}
+
+.subscribe-button {
+  background-color: #e0bcbc;
+  color: black
+}
+
+
+
+.google-button {
+  color: #FFFFFF;
+  font-family: 'Black';
+  background-color: #EAEAEA;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 5px;
+  padding-bottom: 2.5px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.google-button:hover {
+  background-color: #424242;
+}
+
+.google-button:focus {
+  background-color: #424242;
+  outline: 2px solid #CCCCCC;
+  border: 4px solid #CCCCCC;
+}
+
+.google-button:focus:hover {
+  background-color: #424242;
+}
+
+.dark .google-button {
+  background-color: #424242;
+}
+
+.dark .google-button:hover {
+  background-color: #424242;
+}
+
+.dark .google-button:focus {
+  background-color: #424242;
+  outline: 2px solid #CCCCCC;
+  border: 4px solid #CCCCCC;
+}
+
+.dark .google-button:focus:hover {
+  background-color: #424242;
+}

@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Snippets Library",
-  tagline: "A collection of snippets & small projects for common programming tasks",
+  tagline:
+    "A collection of snippets & small projects for common programming tasks",
   favicon: "img/favicon.ico",
   url: "https://snippets.melchortatlonghari.com",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -43,7 +44,7 @@ const config = {
       // Replace with your project's social card
       image: "img/profile.jpg",
       navbar: {
-        title: "mel3kings",
+        title: "Home",
         logo: {
           alt: "Site Logo",
           src: "img/profile.svg",
@@ -58,7 +59,7 @@ const config = {
           { to: "/blog", label: "Dumb Builds", position: "left" },
           {
             href: "https://www.melchortatlonghari.com/",
-            label: "Home",
+            label: "Melchor Tatlonghari",
             position: "right",
           },
         ],
@@ -117,7 +118,7 @@ const config = {
               },
             ],
           },
-        ]
+        ],
       },
       prism: {
         theme: lightCodeTheme,
