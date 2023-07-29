@@ -16,6 +16,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className="hero__subtitle2">💡 New updates (July 2023): Added Authentication Section: Auth0</p>
         <p className="hero__subtitle2">💡 New updates (July 2023): Tailwind Section</p>
+        <p className="hero__subtitle2">💡 New updates (July 2023): Video Editing with Python</p>
       </div>
     </header>
   );
