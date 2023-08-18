@@ -12,37 +12,35 @@
   --ifm-color-primary-darkest: #4d4d4d;
   --ifm-color-primary-light: #bcbcbc;
   --ifm-color-primary-lighter: #cccccc;
-  --ifm-color-primary-lightest: #e6e6e6;
+  --ifm-color-primary-lightest: #ececec;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #9e9e9e;
   --ifm-color-primary-dark: #808080;
   --ifm-color-primary-darker: #666666;
   --ifm-color-primary-darkest: #4d4d4d;
   --ifm-color-primary-light: #bcbcbc;
   --ifm-color-primary-lighter: #cccccc;
-  --ifm-color-primary-lightest: #e6e6e6;
+  --ifm-color-primary-lightest: #4d4d4d;
 }
 
 .dark .subscribe-button {
   background-color: #706363;
-  color: black
+  color: black;
 }
 
 .subscribe-button {
   background-color: #e0bcbc;
-  color: black
+  color: black;
 }
 
-
-
 .google-button {
-  color: #FFFFFF;
-  font-family: 'Black';
-  background-color: #EAEAEA;
+  color: #ffffff;
+  font-family: "Black";
+  background-color: #eaeaea;
   font-weight: 500;
   border-radius: 4px;
   font-size: 14px;
@@ -58,8 +56,8 @@
 
 .google-button:focus {
   background-color: #424242;
-  outline: 2px solid #CCCCCC;
-  border: 4px solid #CCCCCC;
+  outline: 2px solid #cccccc;
+  border: 4px solid #cccccc;
 }
 
 .google-button:focus:hover {
@@ -76,8 +74,8 @@
 
 .dark .google-button:focus {
   background-color: #424242;
-  outline: 2px solid #CCCCCC;
-  border: 4px solid #CCCCCC;
+  outline: 2px solid #cccccc;
+  border: 4px solid #cccccc;
 }
 
 .dark .google-button:focus:hover {

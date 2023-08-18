@@ -3,8 +3,7 @@ import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-
-import styles from "./index.module.css";
+import { PageUpdates } from "./PageUpdates";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,32 +12,16 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__subtitle2">
-          💡
-          <a className={styles.link} href="/docs/Authentication/Auth0">
-            {" "}
-            New updates (July 2023): Added Authentication Section: Auth0
-          </a>
-        </p>
-        <p className="hero__subtitle2">
-          💡
-          <a className={styles.link} href="/docs/category/-frontend">
-            New updates (July 2023): Tailwind Section
-          </a>
-        </p>
-        <p className="hero__subtitle2">
-          💡{" "}
-          <a className={styles.link} href="docs/others/Video_editing">
-            New updates (July 2023): Video Editing with Python
-          </a>
-        </p>
-        <p className="hero__subtitle2">
-          💡{" "}
-          <a className={styles.link} href="/docs/frontend/Tailwind/PricePage">
-            {" "}
-            New updates (August 2023): Pricing Page with Tailwind
-          </a>
-        </p>
+        <PageUpdates
+          link="/docs/Authentication/Auth0"
+          title="New updates (July 2023): Added Authentication Section: Auth0"
+        />
+        <PageUpdates link="/docs/category/-frontend" title="New updates (July 2023): Tailwind Section" />
+        <PageUpdates link="/docs/others/Video_editing" title="New updates (July 2023): Video Editing with Python" />
+        <PageUpdates
+          link="/frontend/Tailwind/PricePage"
+          title="New updates (August 2023): Pricing Page with Tailwind"
+        />
       </div>
     </header>
   );
