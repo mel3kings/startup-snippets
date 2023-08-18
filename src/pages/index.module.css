@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: white;
+}

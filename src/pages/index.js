@@ -9,14 +9,36 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero hero--primary")}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__subtitle2">💡 New updates (July 2023): Added Authentication Section: Auth0</p>
-        <p className="hero__subtitle2">💡 New updates (July 2023): Tailwind Section</p>
-        <p className="hero__subtitle2">💡 New updates (July 2023): Video Editing with Python</p>
-        <p className="hero__subtitle2">💡 New updates (August 2023): Pricing Page with Tailwind</p>
+        <p className="hero__subtitle2">
+          💡
+          <a className={styles.link} href="/docs/Authentication/Auth0">
+            {" "}
+            New updates (July 2023): Added Authentication Section: Auth0
+          </a>
+        </p>
+        <p className="hero__subtitle2">
+          💡
+          <a className={styles.link} href="/docs/category/-frontend">
+            New updates (July 2023): Tailwind Section
+          </a>
+        </p>
+        <p className="hero__subtitle2">
+          💡{" "}
+          <a className={styles.link} href="docs/others/Video_editing">
+            New updates (July 2023): Video Editing with Python
+          </a>
+        </p>
+        <p className="hero__subtitle2">
+          💡{" "}
+          <a className={styles.link} href="/docs/frontend/Tailwind/PricePage">
+            {" "}
+            New updates (August 2023): Pricing Page with Tailwind
+          </a>
+        </p>
       </div>
     </header>
   );
