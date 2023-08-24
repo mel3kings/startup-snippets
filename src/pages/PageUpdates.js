@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 
-export const PageUpdates = ({ link, title }) => {
+const PageUpdates = ({ link, title }) => {
   return (
     <p className="hero__subtitle">
       💡
@@ -11,3 +11,5 @@ export const PageUpdates = ({ link, title }) => {
     </p>
   );
 };
+
+export default PageUpdates;

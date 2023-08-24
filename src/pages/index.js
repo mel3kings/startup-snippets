@@ -3,7 +3,7 @@ import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import { PageUpdates } from "./PageUpdates";
+import PageUpdates from "./PageUpdates";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -24,7 +24,9 @@ function HomepageHeader() {
         />
       </div>
       <div>
-        <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0" scrolling="no"></iframe>
+        <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">
+          {" "}
+        </iframe>
       </div>
     </header>
   );
