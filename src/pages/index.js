@@ -12,6 +12,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Subscribe to get updated 👉</p>
         <PageUpdates
           link="/docs/Authentication/Auth0"
           title="New updates (July 2023): Added Authentication Section: Auth0"
@@ -19,9 +20,10 @@ function HomepageHeader() {
         <PageUpdates link="/docs/category/-frontend" title="New updates (July 2023): Tailwind Section" />
         <PageUpdates link="/docs/others/Video_editing" title="New updates (July 2023): Video Editing with Python" />
         <PageUpdates
-          link="/frontend/Tailwind/PricePage"
+          link="/docs/frontend/Tailwind/PricePage"
           title="New updates (August 2023): Pricing Page with Tailwind"
         />
+        <PageUpdates link="/docs/frontend/JS_Best_Practice" title="New updates (August 2023): JS DO This NOT That" />
       </div>
       <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">

@@ -6,7 +6,7 @@ const PageUpdates = ({ link, title }) => {
     <p className="hero__subtitle">
       💡
       <a className={styles.link} href={link}>
-        {`New updates (July 2023): ${title}`}
+        {`${title}`}
       </a>
     </p>
   );
