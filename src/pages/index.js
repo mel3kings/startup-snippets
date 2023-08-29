@@ -23,7 +23,11 @@ function HomepageHeader() {
           link="/docs/frontend/Tailwind/PricePage"
           title="New updates (August 2023): Pricing Page with Tailwind"
         />
-        <PageUpdates link="/docs/frontend/JS_Best_Practice" title="New updates (August 2023): JS DO This NOT That" />
+        <PageUpdates link="/docs/frontend/JS_Best_Practice" title="New updates (August 2023): JS Do This Not That" />
+        <PageUpdates
+          link="/docs/frontend/Tailwind/Customer_Reviews"
+          title="New updates (August 2023): Tailwind Customer Reviews Section"
+        />
       </div>
       <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">

@@ -7,8 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Snippets Library",
-  tagline:
-    "A collection of snippets & small projects for common programming tasks",
+  tagline: "A collection of snippets & small projects for common programming tasks",
   favicon: "img/favicon.ico",
   url: "https://snippets.melchortatlonghari.com",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -54,9 +53,9 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Startup Snippets",
+            label: "Code Snippets",
           },
-          { to: "/blog", label: "Dumb Builds", position: "left" },
+          // { to: "/blog", label: "Dumb Builds", position: "left" },
           {
             href: "https://www.melchortatlonghari.com/",
             label: "Melchor Tatlonghari",
