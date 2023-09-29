@@ -28,6 +28,7 @@ function HomepageHeader() {
           link="/docs/frontend/Tailwind/Customer_Reviews"
           title="New updates (August 2023): Tailwind Customer Reviews Section"
         />
+        <PageUpdates link="/docs/frontend/Tailwind/BottomNav" title="New updates (Sept 2023): Tailwind Bottom Nav" />
       </div>
       <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">
