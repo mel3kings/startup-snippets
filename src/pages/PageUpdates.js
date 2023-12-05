@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./index.module.css";
 
 const PageUpdates = ({ link, title }) => {
   return (
-    <p className="hero__subtitle">
+    <p className="">
       💡
-      <a className={styles.link} href={link}>
+      <a className="text-neutral-100" href={link}>
         {`${title}`}
       </a>
     </p>

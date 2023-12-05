@@ -14,17 +14,19 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <>
-      <header className="bg-stone-600">
+      <header className="bg-slate-950">
         <div className="container mx-auto text-center py-4 pt-12">
-          <h1 className="text-4xl font-bold text-white">{siteConfig.title}</h1>
+          <h1 className="text-7xl font-bold bg-gradient-to-r from-pink-700 to-indigo-700 inline-block text-transparent bg-clip-text">
+            {siteConfig.title}
+          </h1>
           <p className="text-xl text-white">{siteConfig.tagline}</p>
 
           <div className="py-10"></div>
         </div>
       </header>
-      <header className="bg-stone-400 w-full p-4">
-        <div className="overflow-auto">
-          <h1 className="text-2xl">Recent Updates</h1>
+      <header className="bg-slate-950 w-full p-4 flex justify-center items-center align-center text-center">
+        <div className="overflow-auto font-thin bg-gradient-to-r from-pink-700 to-indigo-700 inline-block text-transparent bg-clip-text">
+          <h1 className="text-4xl">Recent Updates</h1>
           <PageUpdates
             link="/docs/Authentication/Auth0"
             title="New updates (July 2023): Added Authentication Section: Auth0"
@@ -56,11 +58,14 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout
+      title={`${siteConfig.title}`}
+      description="A collection of snippets & small projects for common programming tasks"
+    >
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }
