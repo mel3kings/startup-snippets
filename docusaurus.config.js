@@ -68,21 +68,33 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Products",
             items: [
               {
-                label: "Snippets Library",
-                to: "/docs/intro",
+                label: "Make Time",
+                to: "https://make-time.net",
               },
               {
-                label: "Dumb Builds",
-                to: "/blog",
+                label: "Nomad Budget",
+                to: "https://budget.digital-nomad-social.com/",
+              },
+              {
+                label: "Your SaaS",
+                to: "https://meltatlonghari.gumroad.com/l/ayqmpf",
+              },
+              {
+                label: "Golden Visa",
+                to: "https://www.amazon.com/Golden-Visa-Strategies-Entrepreneurship-Citizenship/dp/B0CJL294G5",
               },
             ],
           },
           {
             title: "Links",
             items: [
+              {
+                label: "Melchor Tatlonghari Links",
+                to: "https://linktr.ee/mel3kings",
+              },
               {
                 label: "Home",
                 href: "https://www.melchortatlonghari.com",

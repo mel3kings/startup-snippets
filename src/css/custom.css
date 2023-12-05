@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #9e9e9e;
