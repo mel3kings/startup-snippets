@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
-import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import PageUpdates from "./PageUpdates";
 import ReactGA from "react-ga4";
 
