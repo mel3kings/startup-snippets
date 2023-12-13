@@ -39,6 +39,7 @@ function HomepageHeader() {
           <PageUpdates link="/docs/frontend/Tailwind/ResponsiveIframe" title="Nov 2023: Responsive IFrame" />
           <PageUpdates link="/docs/frontend/Lottie/Loading" title="Dec 2023: Loading from Lottie" light={true} />
           <PageUpdates link="/docs/frontend/SVGs/Loader" title="Dec 2023: SVG Loader" light={true} />
+          <PageUpdates link="/docs/frontend/Tailwind/PricePage" title="Dec 2023: Updates on Pricing Page" />
           <PageUpdates link="/docs/frontend/Tailwind/GradientButton" title="Jan 2024: Gradient Button" light={true} />
           <PageUpdates link="/docs/frontend/Tailwind/GradientText" title="Jan 2024: Gradient Text" light={true} />
         </div>
