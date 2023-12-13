@@ -23,31 +23,24 @@ function HomepageHeader() {
         </div>
       </header>
       <header className="bg-slate-950 w-full p-4 flex justify-center items-center align-center text-center">
-        <div className="overflow-auto font-thin bg-gradient-to-r from-pink-700 to-indigo-700 inline-block text-transparent bg-clip-text">
+        <div className="overflow-auto font-thin bg-gradient-to-r from-pink-700 to-indigo-700 inline-block text-transparent bg-clip-text ">
           <h1 className="text-4xl">Recent Updates</h1>
-          <PageUpdates
-            link="/docs/Authentication/Auth0"
-            title="New updates (July 2023): Added Authentication Section: Auth0"
-          />
-          <PageUpdates link="/docs/category/-frontend" title="New updates (July 2023): Tailwind Section" />
-          <PageUpdates link="/docs/others/Video_editing" title="New updates (July 2023): Video Editing with Python" />
-          <PageUpdates
-            link="/docs/frontend/Tailwind/PricePage"
-            title="New updates (August 2023): Pricing Page with Tailwind"
-          />
-          <PageUpdates link="/docs/frontend/JS_Best_Practice" title="New updates (August 2023): JS Do This Not That" />
+          <PageUpdates link="/docs/Authentication/Auth0" title="July 2023: Added Authentication Section: Auth0" />
+          <PageUpdates link="/docs/category/-frontend" title="July 2023: Tailwind Section" />
+          <PageUpdates link="/docs/others/Video_editing" title="July 2023: Video Editing with Python" />
+          <PageUpdates link="/docs/frontend/Tailwind/PricePage" title="August 2023: Pricing Page with Tailwind" />
+          <PageUpdates link="/docs/frontend/JS_Best_Practice" title="August 2023: JS Do This Not That" />
           <PageUpdates
             link="/docs/frontend/Tailwind/Customer_Reviews"
-            title="New updates (August 2023): Tailwind Customer Reviews Section"
+            title="August 2023: Tailwind Customer Reviews Section"
           />
-          <PageUpdates link="/docs/frontend/Tailwind/BottomNav" title="New updates (Sept 2023): Tailwind Bottom Nav" />
-          <PageUpdates link="/docs/infrastructure/AWS/DynamoDB/CRUD" title="New updates (Oct 2023): AWS CRUD Dynamo" />
-          <PageUpdates
-            link="/docs/frontend/Tailwind/ResponsiveIframe"
-            title="New updates (Nov 2023): Responsive IFrame"
-          />
-          <PageUpdates link="/docs/frontend/Lottie/Loading" title="New updates (Dec 2023): Loading from Lottie" />
-          <PageUpdates link="/docs/frontend/SVGs/Loader" title="New updates (Dec 2023): SVG Loader" />
+          <PageUpdates link="/docs/frontend/Tailwind/BottomNav" title="Sept 2023: Tailwind Bottom Nav" />
+          <PageUpdates link="/docs/infrastructure/AWS/DynamoDB/CRUD" title="Oct 2023: AWS CRUD Dynamo" />
+          <PageUpdates link="/docs/frontend/Tailwind/ResponsiveIframe" title="Nov 2023: Responsive IFrame" />
+          <PageUpdates link="/docs/frontend/Lottie/Loading" title="Dec 2023: Loading from Lottie" light={true} />
+          <PageUpdates link="/docs/frontend/SVGs/Loader" title="Dec 2023: SVG Loader" light={true} />
+          <PageUpdates link="/docs/frontend/Tailwind/GradientButton" title="Jan 2024: Gradient Button" light={true} />
+          <PageUpdates link="/docs/frontend/Tailwind/GradientText" title="Jan 2024: Gradient Text" light={true} />
         </div>
         {/* <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">
