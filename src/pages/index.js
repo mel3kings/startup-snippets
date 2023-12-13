@@ -42,6 +42,12 @@ function HomepageHeader() {
           />
           <PageUpdates link="/docs/frontend/Tailwind/BottomNav" title="New updates (Sept 2023): Tailwind Bottom Nav" />
           <PageUpdates link="/docs/infrastructure/AWS/DynamoDB/CRUD" title="New updates (Oct 2023): AWS CRUD Dynamo" />
+          <PageUpdates
+            link="/docs/frontend/Tailwind/ResponsiveIframe"
+            title="New updates (Nov 2023): Responsive IFrame"
+          />
+          <PageUpdates link="/docs/frontend/Lottie/Loading" title="New updates (Dec 2023): Loading from Lottie" />
+          <PageUpdates link="/docs/frontend/SVGs/Loader" title="New updates (Dec 2023): SVG Loader" />
         </div>
         {/* <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">
