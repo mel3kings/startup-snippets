@@ -92,15 +92,15 @@ const config = {
           title: "Others",
           items: [
             {
-              label: "Link Tree",
+              to: "https://mel3kings.canny.io/application-or-feature-request",
+              label: "⚠️ Bugs or Issues",
+            },
+            {
+              label: "All Links - Link Tree",
               to: "https://linktr.ee/mel3kings",
             },
             {
-              label: "Personal Website",
-              to: "https://www.melchortatlonghari.com",
-            },
-            {
-              label: "LinkedIn",
+              label: "Professional Account",
               to: "https://www.linkedin.com/in/melchor-tatlonghari",
             },
             {
@@ -108,7 +108,7 @@ const config = {
               to: "https://twitter.com/meltatlonghari3",
             },
             {
-              label: "Medium",
+              label: "Blogs",
               to: "https://medium.com/@meltatlonghari3",
             },
           ],
