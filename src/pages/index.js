@@ -37,14 +37,15 @@ function HomepageHeader() {
           <PageUpdates link="/docs/frontend/Tailwind/BottomNav" title="Sept 2023: Tailwind Bottom Nav" />
           <PageUpdates link="/docs/infrastructure/AWS/DynamoDB/CRUD" title="Oct 2023: AWS CRUD Dynamo" />
           <PageUpdates link="/docs/frontend/Tailwind/ResponsiveIframe" title="Nov 2023: Responsive IFrame" />
-          <PageUpdates link="/docs/frontend/Lottie/Loading" title="Dec 2023: Loading from Lottie" light={true} />
-          <PageUpdates link="/docs/frontend/SVGs/Loader" title="Dec 2023: SVG Loader" light={true} />
+          <PageUpdates link="/docs/frontend/Lottie/Loading" title="Dec 2023: Loading from Lottie" />
+          <PageUpdates link="/docs/frontend/SVGs/Loader" title="Dec 2023: SVG Loader" />
           <PageUpdates link="/docs/frontend/Tailwind/PricePage" title="Dec 2023: Updates on Pricing Page" />
           <PageUpdates
             link="/docs/frontend/others/Useful-Resources"
             title="Dec 2023: Useful Frontend Resources (SVGs and Icons)"
             light={true}
           />
+          <PageUpdates link="/docs/backend/Node/Send-Email" title="Dec 2024: Send Email" light={true} />
           <PageUpdates link="/docs/frontend/Tailwind/GradientButton" title="Jan 2024: Gradient Button" light={true} />
           <PageUpdates link="/docs/frontend/Tailwind/GradientText" title="Jan 2024: Gradient Text" light={true} />
         </div>
