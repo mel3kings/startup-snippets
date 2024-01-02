@@ -28,7 +28,7 @@ function HomepageHeader() {
           <PageUpdates link="/docs/Authentication/Auth0" title="July 2023: Added Authentication Section: Auth0" />
           <PageUpdates link="/docs/category/-frontend" title="July 2023: Tailwind Section" />
           <PageUpdates link="/docs/others/Video_editing" title="July 2023: Video Editing with Python" />
-          <PageUpdates link="/docs/frontend/Tailwind/PricePage" title="August 2023: Pricing Page with Tailwind" />
+
           <PageUpdates link="/docs/frontend/JS_Best_Practice" title="August 2023: JS Do This Not That" />
           <PageUpdates
             link="/docs/frontend/Tailwind/Customer_Reviews"
@@ -43,11 +43,15 @@ function HomepageHeader() {
           <PageUpdates
             link="/docs/frontend/others/Useful-Resources"
             title="Dec 2023: Useful Frontend Resources (SVGs and Icons)"
-            light={true}
           />
           <PageUpdates link="/docs/backend/Node/Send-Email" title="Dec 2024: Send Email" light={true} />
           <PageUpdates link="/docs/frontend/Tailwind/GradientButton" title="Jan 2024: Gradient Button" light={true} />
           <PageUpdates link="/docs/frontend/Tailwind/GradientText" title="Jan 2024: Gradient Text" light={true} />
+          <PageUpdates
+            link="/docs/frontend/Tailwind/PricePage"
+            title="Jan 2024: Pricing Page with Tailwind"
+            light={true}
+          />
         </div>
         {/* <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">

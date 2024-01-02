@@ -5,7 +5,7 @@ const PageUpdates = ({ link, title, light = false }) => {
     <p className="">
       {light && <span>💡</span>}
 
-      <a className="text-neutral-100" href={link}>
+      <a className="text-neutral-100 font-regular" href={link}>
         {`${title}`}
       </a>
     </p>

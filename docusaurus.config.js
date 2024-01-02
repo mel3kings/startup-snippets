@@ -68,20 +68,21 @@ const config = {
       style: "dark",
       links: [
         {
-          title: "Products",
+          title: "SaaS Products",
           items: [
             {
+              label: "🔥 Qoutes",
+              to: "https://qoutesapp.com/?ref=snippets",
+            },
+            {
               label: "Make Time",
-              to: "https://make-time.net",
+              to: "https://make-time.net/?ref=snippets",
             },
             {
               label: "Nomad Budget",
-              to: "https://budget.digital-nomad-social.com/",
+              to: "https://budget.digital-nomad-social.com/?ref=snippets",
             },
-            {
-              label: "Your SaaS",
-              to: "https://meltatlonghari.gumroad.com/l/ayqmpf",
-            },
+
             {
               label: "Golden Visa",
               to: "https://www.amazon.com/Golden-Visa-Strategies-Entrepreneurship-Citizenship/dp/B0CJL294G5",
