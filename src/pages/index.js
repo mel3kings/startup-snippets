@@ -52,7 +52,13 @@ function HomepageHeader() {
             title="Jan 2024: Pricing Page with Tailwind"
             light={true}
           />
+          <PageUpdates
+            link="/docs/frontend/React/React-DatePicker"
+            title="Jan 2024: Simple React Date Picker"
+            light={true}
+          />
         </div>
+
         {/* <div>
         <iframe width="400" height="250" src="https://httpx.ck.page/0143bba2cc" frameborder="0">
           {" "}

@@ -71,5 +71,4 @@ export const BentoPage = () => {
     </div>
   );
 };
-
 ```

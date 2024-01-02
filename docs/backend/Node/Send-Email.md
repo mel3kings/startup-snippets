@@ -1,8 +1,9 @@
-# Send Email
+# Send Email (Resend API)
 
 - Send Simple Email Using Resend
 - Only works in backend code
 - Need to have verified domain you own and can only send from that domain
+- See: https://resend.com/
 
 ## Code
 
